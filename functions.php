@@ -151,3 +151,10 @@ function parea_sidebars(){
 }
 
 //add_filter('show_admin_bar', '__return_false');
+
+
+/**
+ * Redux additions.
+ */
+require_once 'lib/redux/ReduxCore/framework.php';
+include 'lib/redux/sample/config.php';
